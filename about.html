@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="/images/v.png">
+    <script src="https://use.fontawesome.com/322e918cae.js"></script> 
+<script src="https://kit.fontawesome.com/08bd6b1a51.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<title>About us</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()" style="color: white;padding-top: 30px;padding-left: 30px;"></i>
+                
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="departments.html">Course</a></li>
+                    <li><a href="placements.html">Placements</a></li>
+                    <li><a href="onlinecourse.html">Learning portal</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars"onclick="showMenu()" style="color: white;padding-right: 30px;"></i>
+        </nav>
+    
+<h1 style="margin-top: 70px;"><i class="fa-solid fa-address-card"></i>&nbsp;About us</h1>
+</section>
+<!------about us content----->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Know about us</h1>
+            <p>Vignan University, Guntur is a private deemed university which was established in the academic year of 2008. 
+                The University is located in Guntur district of Andhra Pradesh. 
+                The university was formerly known as Vignan's Engineering College founded in the year 1997. 
+                The motto of the university is to
+                 provide high quality education by academic programs, training activities, and research facilities </p>
+                <a href="about1.html" class="hero-btn red-btn">Explore now</a>
+        </div>
+        <div class="about-col">
+            <img src="/images/about.jpg">
+        </div>
+    </div>
+</section>
+
+<!---------------javascript----------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>

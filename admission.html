@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="/images/v.png">
+    <script src="https://use.fontawesome.com/322e918cae.js"></script> 
+<script src="https://kit.fontawesome.com/08bd6b1a51.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<title>Admissions</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()" style="color: white;padding-top: 30px;padding-left: 30px;"></i>
+                
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="facilities.html">Facilities<a></li>
+                    <li><a href="departments.html">Course</a></li>
+                    <li><a href="placements.html">Placements</a></li>
+                    <li><a href="onlinecourse.html">Learning portal</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars"onclick="showMenu()" style="color: white;padding-right: 30px;"></i>
+        </nav>
+    
+<h1 style="margin-top: 30px;"><i class="fa-solid fa-graduation-cap"></i>Admissions</h1>
+</section>
+
+<!----admissions---->
+<section class="Dcourse">
+    <h2>Process of Admissions in vignan</h2>
+    
+     
+    <div class="row">
+        <div class="Dcourse-col1">
+            <h3>V-SAT Application form</h3>
+            <button class="btn1"><a href="application.pdf">Download here</a></button>
+        </div>
+        <div class="Dcourse-col2">
+                <h3>V-SAT Instruction Guide</h3>
+                <button class="btn1"><a href="guide.pdf">Download here</a></button>
+        </div>
+      <div class="Dcourse-col3">
+        <p> At Vignan, our goal is to bring your ambition to life. 
+              Vignan's entry criteria are based on more than just the Intermediate/equivalent exam results.
+              They emphasise on leadership qualities, extracurricular activities, 
+              life experience and potential to learn things. Learn more about how to apply at Vignan.</p>
+      </div>
+    </div>
+</section>
+<!--FEE STRUCTURE -->
+<section class="fee">
+    <h2>FEE STRUCTURE </h2>
+    
+     
+    <div class="row">
+        <div class="fee-col1">
+            <h3>Computer Science and Engineering</h3>
+            <h4>CATEGORY - A</h4>
+            <h5>Rs.2,80,000/-</h5>
+            <h4>CATEGORY - B</h4>
+            <h5>Rs.3,80,000/-</h5>
+        </div>
+        <div class="fee-col2">
+            <h3>Electronics & Communications Engineering</h3>
+            <h4>CATEGORY - A</h4>
+            <h5>Rs.2,00,000/-</h5>
+            <h4>CATEGORY - B</h4>
+            <h5>Rs.3,00,000/-</h5> 
+        </div>
+      <div class="fee-col3">
+            <h3>Mechanical Engineering</h3>
+            <h4>CATEGORY - A</h4>
+            <h5>Rs.1,20,000/-</h5>
+            <h4>CATEGORY - B</h4>
+            <h5>Rs.2,20,000/-</h5> 
+    </div>
+    </div>
+</section>
+<section class="pay">
+    <h2>Payment Modes</h2>
+    <div class="row">
+        <div class="pay-col1">
+            <h3>Pay through</h3>
+            <i class="fa-brands fa-apple-pay fa-3x"></i>
+            <i id="icon" class="fa-brands fa-google-pay fa-3x"></i>
+            <i id="icon" class="fa-brands fa-amazon-pay fa-2x"></i>
+            <i id="icon" class="fa-brands fa-cc-paypal fa-2x"></i>
+           
+</section>
+<section class="pay">
+    <div class="row">
+           <div class="pay-col2">
+            <h3>Click below icon for payment</h3>
+            <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_JSLzfr94LVKYrf" async> </script> </form></div>
+    
+
+           
+            </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---------------javascript----------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
